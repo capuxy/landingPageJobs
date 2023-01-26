@@ -1,0 +1,195 @@
+body{
+    background-image: url("/img/cool-background.svg");
+    font-family: 'Quicksand', sans-serif;
+    background-repeat: no-repeat;
+    background-size: auto 1400px;
+}
+.navbar{
+    display: flex;
+    background-color: #563ED1;
+    justify-content: space-around;
+    color: #FFF;
+    padding: 20px;
+    align-items: center;
+}
+.navbarItem{
+    color: #FFF;
+    font-weight: bold;
+    margin-left: 4rem;
+    font-size: 15px;
+    transition: all 0.4s;
+}
+.navbarItem:hover{
+    font-size: 20px;
+}
+.signUp{
+    font-family: 'Quicksand', sans-serif;
+    border: #7973ce;
+    background-color: #7973ce;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 40px;
+    border-radius: 999px;
+    margin-left: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.signUp:hover{
+    transform: scale(1.2);
+}
+.iconePrincipal{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.iconePrincipal:hover{
+    transform: scale(1.2);
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search h2{
+    color: #858689;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.search h1{
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 4rem;
+}
+.imgPrincipal{
+    width: 500px;
+    height: 500px;
+}
+.imgLupa{
+    width: 20px;
+    height: 20px;
+}
+.searchBox{
+    display: flex;
+    background-color: #e5e5e5;
+    border-radius: 999px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+}
+.searchBox input{
+    width: 90%;
+    text-align: start;
+    font-size: 20px;
+    background-color: #e5e5e5;
+    color: #000;
+    border: none;
+    margin-left: 50px;
+
+}
+.searchBox input:focus{
+outline: 0;
+}
+.btnSearch{
+    border:none;
+    border-radius: 99px;
+    width: 40px;
+    height: 40px;
+    background-color: #ffa807;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btnSearch:hover{
+    transform: scale(1.2);
+}
+.sectionCard{
+    height: auto;
+    padding: 50px;
+}
+.subtitle{
+    color: #858689;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-left: 340px;
+}
+span{
+    font-weight: bold;
+}
+.totalCard{
+    display: grid;
+    grid-template-columns: repeat(5,190px);
+    gap: 4rem;
+    place-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    width: 190px;
+    height: 250px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: start;
+}
+.cardImagem{
+    width: 75px;
+    height: 35px;
+    align-self: center;
+    margin-bottom: 1.5rem;
+}
+hr{
+    width: 100%;
+}
+.titleCard{
+    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+.subtitleCard{
+    color: #858689;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 0.7rem;
+}
+.city{  
+    color: #bfc0c1;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 1.5rem;
+}
+.cardInfo{
+    box-sizing: border-box;
+    padding: 50px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+}
+.salario{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #99a3ff;
+    padding: 10px;
+    height: 90px;
+    font-weight: bold;
+    justify-content: space-around;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.valor{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 0.3rem;
+}
+.salario p{
+    font-size: 10px;
+    color: #563ED1;
+}
